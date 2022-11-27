@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         
-        .gallery {
+  /*       .gallery {
             margin: 5px;
             border: 1px solid #ccc;
             float: left;
@@ -29,28 +29,28 @@
         figcaption.desc {
         padding: 15px;
         text-align: center;
-        }
+        } */
         
     </style>
 </head>
 
 <body>
     <header>
-        <div>
+        <figure class="profile-image">
             <img src="images/profile-image-2.jpg" alt="profileimage" width="150" height="150">
-        </div>
+        </figure>
         <h1>Janos Balogh</h1>
         <h2>frontend developer</h2>
         <nav>
             <ul>
-                <li><a href="#bevezető">bevezető</a></li>
-                <li><a href="#rólam">rólam</a></li>
-                <li><a href="#galéria">galéria</a></li>
-                <li><a href="#kapcsolat">kapcsolat</a></li>
+                <li><a href="#bevezető">Bevezető</a></li>
+                <li><a href="#rólam">Rólam</a></li>
+                <li><a href="#galéria">Galéria</a></li>
+                <li><a href="#kapcsolat">Kapcsolat</a></li>
             </ul>
         </nav>
     </header>
-    <section>
+    <section class="intoduction">
         <article>
             <h3>Bevezető</h3>
             <p>Helló János vagyok és ezt az <strong>about me weboldalam</strong> azért hoztam létre, hogy egy pár szóval
@@ -60,7 +60,7 @@
         </article>
     </section>
     <section>
-        <article>
+        <article class="about-me">
             <h3>Rólam</h3>
             <p>Weboldal fejlesztéssel foglalkozom</p>
             <p>Szabadidőmben ha tehetem minél több időt szeretek tartózkodni a szabadban. Szeretem az outdoor
@@ -68,11 +68,11 @@
             <p>A zene is elég kőzel áll hozzám, leginkább: <strong>rock, blues, jazz, rap.</strong></p>
         </article>
     </section>
-    <div>
+    <div class="image-gallery">
        <h3>Galéria</h3>
        <figure class="gallery">
             <a target="_blank" href="images/image52.jpg">
-            <img src="images/image52.jpg" alt="img" width="600" height="400">
+            <img src="images/image52.jpg" alt="img" width="500" height="400">
             </a>
             <figcaption class="desc">
                 Utazások Europa
@@ -81,7 +81,7 @@
 
         <figure class="gallery">
             <a target="_blank" href="images/image10.jpg">
-            <img src="images/image10.jpg" alt="img" width="600" height="400">
+            <img src="images/image10.jpg" alt="img" width="500" height="400">
             </a>
             <figcaption class="desc">
                 Körshegyi völgyhíd bringázás
@@ -90,7 +90,7 @@
 
         <figure class="gallery">
             <a target="_blank" href="images/image19.jpg">
-            <img src="images/image19.jpg" alt="img" width="600" height="400">
+            <img src="images/image19.jpg" alt="img" width="500" height="400">
             </a>
             <figcaption class="desc">
                 Körshegyi völgyhíd bringázás
@@ -98,12 +98,71 @@
         </figure>
         <figure class="gallery">
             <a target="_blank" href="images/image4.jpg">
-            <img src="images/image4.jpg" alt="img" width="600" height="400">
+            <img src="images/image4.jpg" alt="img" width="500" height="400">
             </a>
             <figcaption class="desc">
-                Körshegyi völgyhíd bringázás
+                Gitározás
             </figcaption>
         </figure>
+        <figure class="gallery">
+            <a target="_blank" href="images/image30.jpg">
+            <img src="images/image30.jpg" alt="img" width="500" height="400">
+            </a>
+            <figcaption class="desc">
+                Kerti gitározás
+            </figcaption>
+        </figure>
+        <figure class="gallery">
+            <a target="_blank" href="images/image42.jpg">
+            <img src="images/image42.jpg" alt="img" width="500" height="400">
+            </a>
+            <figcaption class="desc">
+                Túrázás valahol a bihari hegyekbe
+            </figcaption>
+        </figure>
+        <figure class="gallery">
+            <a target="_blank" href="images/image46.jpg">
+            <img src="images/image46.jpg" alt="img" width="500" height="400">
+            </a>
+            <figcaption class="desc">
+                győnyörü vízesés 
+            </figcaption>
+        </figure>
+        <figure class="gallery">
+            <a target="_blank" href="images/image47.jpg">
+            <img src="images/image47.jpg" alt="img" width="500" height="400">
+            </a>
+            <figcaption class="desc">
+                győnyörü vízesés
+            </figcaption>
+        </figure>
+        <figure class="gallery">
+            <a target="_blank" href="images/image35.jpg">
+            <img src="images/image35.jpg" alt="img" width="500" height="400">
+            </a>
+            <figcaption class="desc">
+                Evezés a dunán római part 
+            </figcaption>
+        </figure>
+        <figure class="gallery">
+            <a target="_blank" href="images/image13.jpg">
+            <img src="images/image13.jpg" alt="img" width="500" height="400">
+            </a>
+            <figcaption class="desc">
+                Evezés a a ketteskörösön Köröstarcsa
+            </figcaption>
+        </figure>
+    </div>
+    <div class="contact">
+        <h3>Kapcsolat</h3>
+        <footer>
+            <ul>
+                <li><a href="https://www.facebook.com/janos.balogh.5205" target="_blank"><i class="fa-brands fa-square-facebook fa-3x scale-1" ></i></a></li>
+                <li><a href="https://github.com/janos870" target="_blank"><i class="fa-brands fa-square-github fa-3x scale-2"></i></a></li>
+                <li><a href="https://www.instagram.com/janosbalogh87/" target="_blank"><i class="fa-brands fa-square-instagram fa-3x scale-3"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/balogh-janos-412657257/" target="_blank"><i class="fa-brands fa-linkedin fa-3x scale-4"></i></a></li>
+            </ul>
+        </footer>
     </div>
 </body>
 

@@ -12,29 +12,40 @@ html body{
     min-width: 100%;
     overflow-x: hidden;
     background-color: #808080;
+    background-image: url('images/sun-rise.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
 }
 
 div.box{
     margin: 100px;
-    background-color: #F8F8FF;
+    
+    box-shadow: 5px 10px 10px rgb(35, 13, 13, 0.5); 
 }
         /*header style*/
 header{
-    background-color: #F5F5F5;
+    background-color: #000000;
     border-bottom: 3px solid black;
     background-image: url('images/image79.jpg');
     background-position: center;
-    padding: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     background-size: cover;
     background-repeat: no-repeat;
+    background-blend-mode: lighten;
 }
 
 h1{
     padding: 5px;
     position: relative;
-    left: 250px;
-    top: 5px;
+    left: 200px;
     font-size: 25px;
+}
+
+#about-me{
+    background-color: white;
+    padding: 20px;
 }
 
 
@@ -60,21 +71,6 @@ nav a{
 }
         /*navbar hover*/
 
-    /*introduction style*/
-.introduction{
-    margin: 20px;
-    text-align: center;
-    font-size: 1em;
-    border-bottom: 1px solid;
-    padding: 20px;
-}
-
-.introduction h3{
-    text-align: center;
-    padding: 20px;
-    font-size: 1.5em;
-}
-
 
     /*gallery style*/
 .img-gallery{
@@ -88,6 +84,7 @@ nav a{
 
 #galéria{
     padding: 20px;
+    background-color: white;
 }
 
 
@@ -146,7 +143,7 @@ footer{
     background-color: #e2e0e0;
     padding: 5px;
     color: black;
-    border-top: 2px solid red;
+    border-top: 2px outset #FF8C00
 }
 
         /*footer links tranform, hover*/
@@ -190,8 +187,9 @@ footer{
 
 header figure{
     position: relative;
-    top: 100px;
-    margin-bottom: -25px;
+    top: 130px;
+    left: 100px;
+    margin-bottom: -50px;
 }
 
 

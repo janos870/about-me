@@ -10,9 +10,8 @@
     
     html body{
         display: flex;
-        justify-content: center;
-        overflow-x: hidden;
         min-width: 100%;
+        overflow-x: hidden;
         background-color: #808080;
         background-image: url('images/sun-rise.jpg');
         background-repeat: no-repeat;
@@ -240,25 +239,6 @@
             opacity: 0.7;
         }
     }
-
-    @media screen and (max-width: 600px;) {
-            div .box{
-                margin: 50px;
-                overflow-x: scroll;
-            }
-       /*      .img-gallery{
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .gallery{
-                width: 250px;
-                height: 235px;
-            } */
-     
-    } 
         
     
 

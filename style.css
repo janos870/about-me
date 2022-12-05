@@ -67,11 +67,16 @@
     .map{
         padding-top: 10px;
         padding-left: 15px; 
-        border-left: 3px solid #FF8C00;
+        border: 3px solid #FF8C00;
         box-shadow: 10px 10px 10px #524d4d;
-    }
-    .phone-map{
         display: none;
+    }
+
+    .phone-map{
+        
+        border: 3px solid #FF8C00;
+        box-shadow: 10px 10px 10px #524d4d;
+        margin-top: 20px;
     }
         
     
@@ -299,14 +304,12 @@
                 padding-top: 100px;
                 padding-bottom: 100px;
             }
-            .map{
-               display: none;
-            }
+          
             .phone-map{
                 margin-top: 30px;
                 border: 3px solid #e39433;
                 max-width: 305px;
-                box-shadow: 10px 10px 10px #413f3f;
+                box-shadow: 10px 10px 10px #ae927b;
                 
             }
          

@@ -68,6 +68,10 @@
         padding-top: 10px;
         padding-left: 15px; 
         border-left: 3px solid #FF8C00;
+        box-shadow: 10px 10px 10px #524d4d;
+    }
+    .phone-map{
+        display: none;
     }
         
     

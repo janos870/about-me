@@ -47,7 +47,7 @@
     }
     
     #about-me{
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.962);
         padding: 20px;
     }
     .main{
@@ -68,14 +68,14 @@
         padding-top: 10px;
         padding-left: 15px; 
         border: 3px solid #FF8C00;
-        box-shadow: 10px 10px 10px #524d4d;
+        box-shadow: 5px 5px 5px #524d4d;
         display: none;
     }
 
     .phone-map{
         
         border: 3px solid #FF8C00;
-        box-shadow: 10px 10px 10px #524d4d;
+        box-shadow: 5px 5px 5px #524d4d;
         margin-top: 20px;
     }
         
@@ -113,6 +113,8 @@
         font-size: 1.2em;
         margin: 20px;
     }
+
+
     
     
     #list-box h2{
@@ -128,11 +130,12 @@
         justify-content: center;
         margin: 5px;
         padding-bottom: 100px;
+        
     }
     
     #galéria{
         padding: 20px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.962);
     }
     
     
@@ -194,7 +197,7 @@
         background-color: #e2e0e0;
         padding: 5px;
         color: black;
-        border-top: 2px outset #FF8C00
+        border-top: 2px outset #FF8C00;
     }
     
             /*footer links tranform, hover*/
@@ -257,6 +260,7 @@
             div.box{
                 margin: 0px;
                 overflow-x: hidden;
+                
             }
             .profile-image img{
                 width: 130px;
@@ -285,7 +289,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: start;
-
+                margin-left: 0;
                 margin-bottom: 50px;
         
             }
@@ -309,9 +313,12 @@
                 margin-top: 30px;
                 border: 3px solid #e39433;
                 max-width: 305px;
-                box-shadow: 10px 10px 10px #ae927b;
+                box-shadow: 5px 5px 5px #ae927b;
                 
             }
+
+         
+        
          
 
         

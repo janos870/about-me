@@ -74,7 +74,7 @@
 
     .phone-map{
         
-        border: 3px solid #FF8C00;
+        border: 1px solid #FF8C00;
         box-shadow: 5px 5px 5px #524d4d;
         margin-top: 20px;
     }
@@ -311,7 +311,7 @@
           
             .phone-map{
                 margin-top: 30px;
-                border: 3px solid #e39433;
+                border: 1px solid #e39433;
                 max-width: 305px;
                 box-shadow: 5px 5px 5px #ae927b;
                 

@@ -413,9 +413,10 @@ header{
                 flex-direction: row;
                 justify-content: left;
                 justify-content: flex-start;
+                position: relative;
                 animation-timing-function: linear;
                 animation: mymove 5s infinite;
-                position: relative;
+                
               }
          
             @keyframes mymove {

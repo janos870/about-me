@@ -386,7 +386,7 @@ header{
 
         /*==madia quert desktop view==*/
 
-        @media screen and (min-width: 1630px) {
+        @media screen and (min-width: 1200px) {
             header{
                 padding: 9rem
             }

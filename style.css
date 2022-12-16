@@ -415,6 +415,7 @@ header{
                 justify-content: flex-start;
                 animation-timing-function: linear;
                 animation: mymove 5s infinite;
+                position: relative;
               }
          
             @keyframes mymove {

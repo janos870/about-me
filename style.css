@@ -140,7 +140,7 @@ header{
 
         dd{
             position: relative;
-            left: 2.5rem;
+            margin: 2.5rem;
         }
 
         figure.map{

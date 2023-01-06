@@ -118,7 +118,7 @@ header{
             display: block;
             background-color: white;
             opacity: 0.9;
-            border-radius: 1%;
+            border-radius: 3px;
         }
 
         .my-data i{
@@ -176,7 +176,7 @@ header{
             display: block;
             background-color: white;
             opacity: 0.9;
-            border-radius: 1%;
+            border-radius: 3px;
         }
 
         .list{
@@ -218,7 +218,7 @@ header{
             margin-bottom: 5rem;
             background-color: white;
             opacity: 0.9;
-            border-radius: 1%;
+            border-radius: 3px;
         }
 
         .gallery{
